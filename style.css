@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url(https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+#logo{
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+#logo img{
+    height: 70px;
+    width: 180px;
+}
+
+#buttons{
+    display: flex;
+    margin-left: 700px;
+}
+
+#signin{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 23px;
+    
+}
+#signin input{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    height: 35px;
+    width: 90px;
+    margin-left: 80%;
+}
+
+#reg{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 23px;
+}
+#reg input{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    height: 35px;
+    width: 90px;
+}
+
+#contents{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.6rem;
+}
